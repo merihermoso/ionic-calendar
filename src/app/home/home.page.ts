@@ -7,6 +7,13 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  date: string;
+  type: 'string';
+
   constructor() {}
+
+  onChange($event) {
+    console.log($event);
+  }
 
 }
